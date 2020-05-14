@@ -11,7 +11,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.DialogFragment
 import com.blankj.utilcode.util.ScreenUtils
-import com.example.tabareaselector.R
 import com.example.tabareaselector.SelectAreaLayout
 import kotlinx.android.synthetic.main.dialog_bottom_sheet.view.*
 
