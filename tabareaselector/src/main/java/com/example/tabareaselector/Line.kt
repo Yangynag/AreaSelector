@@ -5,7 +5,6 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.LinearLayout
-import com.blankj.utilcode.util.ColorUtils
 import com.example.tabareaselector.R
 
 
@@ -32,7 +31,7 @@ class Line @JvmOverloads constructor(
                 1.0f
             )
         )
-        indicator.setBackgroundColor(ColorUtils.getColor(R.color.colorBlue))
+        indicator.setBackgroundColor(context.resources.getColor(R.color.colorBlue))
         addView(indicator)
     }
 
